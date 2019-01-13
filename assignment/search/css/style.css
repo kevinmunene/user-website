@@ -1,0 +1,58 @@
+body{
+	background-image: url(../1.jpg);
+	background-size: cover;
+	font-family: arial
+}
+
+.wrap{
+	position: absolute; 
+	width: 30%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-60%);
+
+}
+
+.search{
+	widht:100%;
+	position: relative;
+
+}
+
+.searchterm{
+	float: left;
+	width: 100%;
+	border: 3px solid #6E82DB;
+	padding: 11px;
+	font-size: 17px;
+	outline: none;
+	transition: 1s all;
+}
+
+.searchterm:focus{
+	color: #00B4CC;
+	border: 3px solid #fff;
+}
+.searchbtn{
+	position: absolute;
+	width: 80px;
+	height: 40px;
+	border: 1px solid #00B4CC;
+	text-align: center;
+	color: #237EDE;
+	cursor: pointer;
+	font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
